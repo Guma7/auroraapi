@@ -18,7 +18,7 @@ Este é o backend da aplicação Aurora, responsável por fornecer dados de auro
 3. Crie um arquivo `.env` com as seguintes variáveis:
    ```
    PORT=3001
-   NODE_ENV=development
+   NODE_ENV=production
    ```
 4. Inicie o servidor:
    ```

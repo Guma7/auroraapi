@@ -8,9 +8,7 @@ const PORT = process.env.PORT || 3001;
 
 // Configuração de CORS para permitir requisições do frontend
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? ['https://aurora-app.netlify.app', 'https://aurora-frontend.onrender.com'] 
-    : 'http://localhost:62421'
+  origin: ['https://aurora-app.netlify.app', 'https://aurora-s2vr.onrender.com']
 }));
 
 // Middleware para processar JSON
